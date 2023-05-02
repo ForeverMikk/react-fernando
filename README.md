@@ -24,28 +24,24 @@ Este repositorio contiene el material del Curso de Introducción a React. Aquí 
 
 ```
 git clone <https://github.com/ForeverMikk/react-fernando.git>
-
 ```
 
 1. Entra en la carpeta del proyecto:
 
 ```
 cd curso-intro-react
-
 ```
 
 1. Instala las dependencias:
 
 ```
 npm install
-
 ```
 
 1. Inicia el servidor de desarrollo:
 
 ```
 npm start
-
 ```
 
 ## Contribución
