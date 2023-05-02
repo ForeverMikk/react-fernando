@@ -1,17 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// Async y Await
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// Ejemppl
+// const getImagenPromesa = () => {
+//     const promesa = new Promise((resolve, reject) => {
+//         resolve('https://asdfghjasgfhls.com');
+//     })
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+//     return promesa;
+// }
+
+// getImagenPromesa().then(console.log);
+
+// Se usa el async para volver una funcion normal en una promesa
+const getImagen = async() => {
+    return 'https://asdfghjasgfhls.com';
+}
+
+getImagen().then(console.log);
