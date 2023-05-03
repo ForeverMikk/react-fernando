@@ -1,19 +1,20 @@
-// Async y Await
+// Operador Condicional Ternario
 
-// Ejemppl
-// const getImagenPromesa = () => {
-//     const promesa = new Promise((resolve, reject) => {
-//         resolve('https://asdfghjasgfhls.com');
-//     })
+const activo = true;
 
-//     return promesa;
+// Utilzando un if normal
+// let mensaje = '';
+// if(activo) {
+//     mensaje = "activo";
+// } else {
+//     mensaje = "inactivo";
 // }
 
-// getImagenPromesa().then(console.log);
+// Usando condicional ternario (if-else)
+// const mensaje = activo ? 'activo' : 'inactivo';
 
-// Se usa el async para volver una funcion normal en una promesa
-const getImagen = async() => {
-    return 'https://asdfghjasgfhls.com';
-}
+// Condicional ternario con una sola condicion (solo if)
+const mensaje = activo && 'activo';
 
-getImagen().then(console.log);
+
+console.log(mensaje);
